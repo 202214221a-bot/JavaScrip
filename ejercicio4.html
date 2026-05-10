@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4</title>
+
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <div class="contenedor">
+
+        <h1>
+            4. Mostrar un mensaje según la edad
+        </h1>
+
+        <p>
+            Edad ingresada: 20
+        </p>
+
+        <p id="resultado"></p>
+
+        <script>
+
+            let edad = 20;
+
+            if(edad >= 18){
+
+                document.getElementById("resultado").innerHTML =
+                "Resultado: Mayor de edad";
+
+            }else{
+
+                document.getElementById("resultado").innerHTML =
+                "Resultado: Menor de edad";
+
+            }
+
+        </script>
+
+        <a href="index.html">
+
+            <button>
+                Volver al menú
+            </button>
+
+        </a>
+
+    </div>
+
+</body>
+</html>

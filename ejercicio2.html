@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <div class="contenedor">
+
+        <h1>
+            2. Verificar si un número es par o impar
+        </h1>
+
+        <p>
+            El número 12 es:
+        </p>
+
+        <p id="resultado"></p>
+
+        <script>
+
+            let numero = 12;
+
+            if(numero % 2 == 0){
+
+                document.getElementById("resultado").innerHTML =
+                "Par";
+
+            }else{
+
+                document.getElementById("resultado").innerHTML =
+                "Impar";
+
+            }
+
+        </script>
+
+        <a href="index.html">
+
+            <button>
+                Volver al menú
+            </button>
+
+        </a>
+
+    </div>
+
+</body>
+</html>

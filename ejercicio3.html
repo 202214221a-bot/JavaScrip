@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <div class="contenedor">
+
+        <h1>
+            3. Calcular el promedio de tres notas
+        </h1>
+
+        <p>
+            Las notas son 14, 16 y 18.
+        </p>
+
+        <p id="resultado"></p>
+
+        <script>
+
+            let nota1 = 14;
+            let nota2 = 16;
+            let nota3 = 18;
+
+            let promedio = (nota1 + nota2 + nota3) / 3;
+
+            document.getElementById("resultado").innerHTML =
+            "El promedio es: " + promedio;
+
+        </script>
+
+        <a href="index.html">
+
+            <button>
+                Volver al menú
+            </button>
+
+        </a>
+
+    </div>
+
+</body>
+</html>
